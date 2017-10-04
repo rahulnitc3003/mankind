@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	margin:0;
+	padding:0;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color:cornsilk;
+}
+header,section,footer,aside,article,figure
+{
+	display:block;
+}
+.container{
+	max-width:1000px;
+	margin:auto;
+	background-color:white;
+	
+}
+header{
+	width:100%;
+	height:100px;
+	background-image:url(images/header_mankind.jpg);
+}
+/*.logo
+{
+	float:left;
+}*/
+#socialicons
+{
+	float:right;
+	margin-top:6%;
+}
+.menubar1
+{
+	height:42px;
+	background-color:#000000;
+	text-align:center;
+}
+.menubar1 ul{
+	list-style:none;
+	text-align:center;
+}
+.menubar1 ul li a{
+	float:left;
+	text-decoration:none;
+	color:#FFFFFF;
+	padding:0px 40px;
+	text-align:center;
+	height:42px;
+	line-height:42px;
+	background-color:#094658;
+	border-radius:30px;
+	font-weight:bold;
+}
+.menubar1 ul li a:hover{
+	background-color:darkcyan;
+	border-radius:30px;
+	color:lightblue;
+}
+.menubar1 li a.active{
+	background-color:darkcyan;
+	border-radius:30px;
+	color:lightblue;
+	
+}
+.content{
+	width:560px;
+	padding:20px;
+	float:left;
+}
+.sidebarone
+{
+	color:#C00;
+	width:360px;
+	padding:20px;
+	float:left;
+}
+.justify{
+	text-align:justify;
+}
+	.menubar2 ul{
+		list-style:none;
+		width:360px;
+		background-color:skyblue;
+	}
+	.menubar2 ul li{
+		border:1px solid #03C;
+		padding:5px;
+	}
+
+.menubar2 ul li a{
+	color:white;
+}
+
+
+	#footer
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background:#6CF;
+		text-align: center;
+	}
